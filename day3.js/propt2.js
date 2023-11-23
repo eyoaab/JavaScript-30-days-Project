@@ -1,0 +1,10 @@
+var x1=prompt("Enter  x1");
+var x2=prompt("Enter  x2");
+var y1=prompt("Enter  y1");
+var y2=prompt("Enter  y2");
+x1=parseFloat(x1);
+x2=parseFloat(x2);
+y1=parseFloat(y1);
+y2=parseFloat(y2);
+var slope=(y2-y1)/(x2-x1);
+console.log(slope);
